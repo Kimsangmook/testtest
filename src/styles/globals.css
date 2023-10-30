@@ -1,0 +1,28 @@
+@import "reset.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #efefef;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+a {
+  width: fit-content;
+  display: flex;
+}
+
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+  resize: none;
+}
+
+p {
+  line-height: 1;
+}
